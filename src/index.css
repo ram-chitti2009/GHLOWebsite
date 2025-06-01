@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.perspective {
+    perspective: 1000px;
+  }
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  
+  @keyframes jump {
+  0%, 100% { transform: translateY(0);}
+  50% { transform: translateY(-20%);}
+}
+.animation-jump {
+  animation: jump 1s infinite;
+}
