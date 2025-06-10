@@ -10,6 +10,7 @@ import AboutUs from './About Us/aboutUs';
 import ChapterMap from './Chapter/Chapter';
 import Donate from './Donate/Donate';
 import Blog from './Blog/blog';
+import BlogContent from './Blog/components/blog_content';
 function App() {
   return (
     <Router>
@@ -24,6 +25,7 @@ function App() {
             <Route path="/start-chapter" element={<ChapterMap />} />
             <Route path="/donate" element={<Donate />} />
             <Route path = "/blog" element = {<Blog />} />
+            <Route path = "/blog/:slug" element = {<BlogContent />} />
           </Routes>
         </div>
         <Footer />

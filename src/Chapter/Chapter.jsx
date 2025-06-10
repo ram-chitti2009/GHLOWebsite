@@ -18,7 +18,7 @@ const ChapterMap = () => {
 
       <div className="flex justify-center my-8">
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfM9zFa9fzMD6aNOSho6mqjV5EQcfEbapgvlzNFs5qWThq97g/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/1Qqlt3wlRRfmIehygeT_l5pCZTz7w-Lh2SdEA44pbaWE/viewform?embedded=true"
           width="640"
           height="800"
           frameBorder="0"
@@ -28,6 +28,16 @@ const ChapterMap = () => {
         >
           Loading…
         </iframe>
+      </div>
+      <div className="flex justify-center mb-8">
+      <a
+        href="https://docs.google.com/forms/d/100Khx_vKW7sfijZHBbhWXlE0-4seWb6pr03p2GvfBlc/viewform?edit_requested=true"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300"
+      >
+        Want to Join as a member instead?
+      </a>
       </div>
 
       <h2 className="text-center text-xl font-semibold mt-8 mb-4">Our Chapter Locations</h2>
@@ -41,6 +51,7 @@ const ChapterMap = () => {
         title="GHLO Chapter Map"
       ></iframe>
     </div>
+    
     </Animation>
   );
 };

@@ -6,9 +6,12 @@ function AboutUs(){
    return  <Animation>
             <div>
     <div className="h-8"></div>
-    <TextBox title="Global Health Literacy Outreach (GHLO)" text="We are a non-profit organization dedicated to improving health literacy worldwide. Our mission is to empower individuals and communities with the knowledge and skills they need to make informed health decisions." />
-    <TextBox title="Our Vision" text="We envision a world where everyone has access to accurate health information and the ability to understand and use it effectively." />
-    <TextBox title="Our Mission" text="Our mission is to promote health literacy through education, advocacy, and community engagement. We strive to create a healthier world by ensuring that everyone has the tools they need to navigate the complex healthcare landscape." />
+    <TextBox title="Global Health Literacy Outreach (GHLO)" text="Global Health Literacy Outreach (GHLO) is dedicated to fostering increased understanding of health information and enhancing equity in health literacy, especially through the lens of bridging traditional remedies and modern science. Through outreach and communication, we aim to establish connections with health professionals and raise awareness of crucial health information. 
+" />
+    <TextBox title="Our Vision" text="GHLO envisions creating a community through outreach where the understanding and communication of health is strengthened, leading towards a more informed and healthier society.
+" />
+    <TextBox title="Our Mission" text="To raise awareness of health literacy and work towards achieving equity in health information. We strive to establish a robust community and facilitate communication between health professionals and the general public and build connections between traditional remedies and modern science.
+" />
     <TextBox title="Our Values" text="We believe in the power of knowledge, collaboration, and compassion. We are committed to transparency, integrity, and respect for all individuals and communities." />
 
   
